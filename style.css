@@ -1,0 +1,79 @@
+html,
+body {
+    height: 100%;
+    margin: 0%;
+}
+
+.not-found {
+    color: #333333;
+    padding: 40px 77px 0px 77px;
+    font-family: monospace;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -8%;
+    text-transform: uppercase;    
+}
+
+.container {
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+}
+
+#espantapajaro {
+    width: 40%;
+    height: auto;
+    padding: 5%;
+}
+
+.title {
+    color: #333333;
+    font-family: monospace;
+    width: 100%;
+    height: auto;
+    font-weight: 700, bolder;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+}
+
+.description {
+    width: 55%;
+    color: #333333;
+    font-family: monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+}
+
+.button {
+    width: 216px;
+    height: 68px;
+    color: #FFF;
+    background-color: #333333;
+    font-family: monospace;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+}
+
+body>footer {
+    position: sticky;
+    top: 100vh;
+}
+
+.foot {
+    font-family: 'Monserrat';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    text-align: center;
+    color: #aaa9a9;
+    padding-bottom: 1%;
+    margin: 0%;
+}
